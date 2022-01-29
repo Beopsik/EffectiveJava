@@ -8,6 +8,6 @@ public class Main {
 
         Foo foo2 = Foo.withName("beobsik1");
 
-        Foo foo3 = Foo.getFoo();
+        Foo.getFoo()
     }
 }
