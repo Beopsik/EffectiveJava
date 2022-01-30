@@ -25,12 +25,15 @@ public class Foo {
         return foo;
     }
 
+    //호출될 때마다 인스턴스를 새로 생성하지 않아도 된다.
+    private static final Foo GOOD_NIGHT=new Foo();
+
+    //유연성
     public static Foo getFoo(boolean flag){
         return flag ? new Foo(): new BarFoo();
     }
 
-    //호출될 때마다 인스턴스를 새로 생성하지 않아도 된다.
-    private static final Foo GOOD_NIGHT=new Foo();
+
     public static Foo getFoo(){
         return GOOD_NIGHT;
     }
