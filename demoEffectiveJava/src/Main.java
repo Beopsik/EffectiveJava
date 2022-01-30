@@ -8,6 +8,8 @@ public class Main {
 
         Foo foo2 = Foo.withName("beobsik1");
 
-        Foo.getFoo()
+        //유연성
+        System.out.println(Foo.getFoo(true));
+        System.out.println(Foo.getFoo(false));
     }
 }
