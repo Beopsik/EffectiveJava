@@ -33,7 +33,6 @@ public class Foo {
         return flag ? new Foo(): new BarFoo();
     }
 
-
     public static Foo getFoo(){
         return GOOD_NIGHT;
     }
