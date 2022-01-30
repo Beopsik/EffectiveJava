@@ -33,6 +33,15 @@ public class Foo {
         return flag ? new Foo(): new BarFoo();
     }
 
+    public static Foo getFoo(String str){
+        Foo foo=new Foo();
+
+        //TODO 어떤 특정 약속 되어 있는 텍스트 파일에서 Foo의 구현체의 FQCN을 읽어온다.
+        //TODO FQCN에 해당하는 인스턴스를 생성한다.
+        //TODO foo 변수를 해당 인스턴스를 가리키도록 수정한다.
+
+        return foo;
+    }
     public static Foo getFoo(){
         return GOOD_NIGHT;
     }
