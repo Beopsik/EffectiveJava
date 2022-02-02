@@ -17,6 +17,7 @@ public abstract class Pizza {
             return self();
         }
 
+        //Covariant 리턴 타입을 위한 준비 작업
         abstract Pizza build();
 
         // 하위 클래스는 이 메서드를 재정의(overriding)하여

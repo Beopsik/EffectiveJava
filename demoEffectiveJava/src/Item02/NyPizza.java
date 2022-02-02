@@ -16,6 +16,8 @@ public class NyPizza extends Pizza{
             this.size = Objects.requireNonNull(size);
         }
 
+        // 하위 클래스의 메서드가 상위 클래스의 메서드가 정의한 반환 타입이 아닌,
+        // 그 하위 타입을 반환하는 기능을 공변 반환 타이핑(covariant return typing)이라 한다.
         @Override
         public NyPizza build() {
             return new NyPizza(this);
