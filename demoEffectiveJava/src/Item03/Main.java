@@ -28,5 +28,8 @@ public class Main {
 
         //정적 팩터리의 메서드 참조(Singleton2.getInstance())를 공급자(supplier)로 사용할 수 있다.
         Supplier<Singleton2> s2supplier=Singleton2::getInstance;
+
+        String name = Singleton3.INSTANCE.getName();
+        System.out.println(name);
     }
 }
