@@ -4,17 +4,17 @@ import java.lang.reflect.Constructor;
 
 public class Main {
     public static void main(String[] args){
-        Elvis elvis1 = Elvis.instance;
-        Elvis elvis2 = Elvis.instance;
+        Singleton1 singleton11 = Singleton1.instance;
+        Singleton1 singleton12 = Singleton1.instance;
 
-        System.out.println(elvis1);
-        System.out.println(elvis2);
+        System.out.println(singleton11);
+        System.out.println(singleton12);
 
         try {
-            Constructor<Elvis> constructor = Elvis.class.getDeclaredConstructor();
+            Constructor<Singleton1> constructor = Singleton1.class.getDeclaredConstructor();
             constructor.setAccessible(true);
-            Elvis elvis3 = constructor.newInstance();
-            System.out.println(elvis3);
+            Singleton1 singleton13 = constructor.newInstance();
+            System.out.println(singleton13);
         }catch (Exception e){
             e.printStackTrace();
         }

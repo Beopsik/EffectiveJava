@@ -1,9 +1,9 @@
 package Item03;
 
-public class Elvis {
-    public static final Elvis instance=new Elvis();
+public class Singleton1 {
+    public static final Singleton1 instance=new Singleton1();
 
-    private Elvis(){
+    private Singleton1(){
         if(instance!=null){
             throw new IllegalStateException("this object should be singleton");
         }
