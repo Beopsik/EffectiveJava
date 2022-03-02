@@ -18,7 +18,3 @@ public class SpellChecker_StaticUtil {
         throw new UnsupportedOperationException();
     }
 }
-
-interface Lexicon{}
-
-class KoreanDictionary implements Lexicon{}
