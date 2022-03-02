@@ -9,7 +9,7 @@ public class SpellChecker {
     private final Lexicon dictionary;
 
     public SpellChecker(Supplier<Lexicon> dictionary){
-        this.dictionary= Objects.requireNonNull(dictionary.get())
+        this.dictionary= Objects.requireNonNull(dictionary.get());
     }
     public SpellChecker(Lexicon dictionary){
         this.dictionary=dictionary;
