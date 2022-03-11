@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60660275-6559-4b0a-8bf1-cdd92e6c0aea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demoEffectiveJava/src/Item10/CaseInsensitiveString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoEffectiveJava/demoEffectiveJava.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/demoEffectiveJava/src/Item11/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demoEffectiveJava/src/Item11/PhoneNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,19 +35,6 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,6 +44,7 @@
       <option name="presentableId" value="Default" />
       <updated>1647003198052</updated>
       <workItem from="1647003199794" duration="97000" />
+      <workItem from="1647009820867" duration="16000" />
     </task>
     <servers />
   </component>
@@ -73,5 +61,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
