@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/EffectiveJava.iml" filepath="$PROJECT_DIR$/.idea/EffectiveJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demoEffectiveJava/demoEffectiveJava.iml" filepath="$PROJECT_DIR$/demoEffectiveJava/demoEffectiveJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/effective-java-3e-source-code-master/effective-java-3e-source-code-master.iml" filepath="$PROJECT_DIR$/effective-java-3e-source-code-master/effective-java-3e-source-code-master.iml" />
+    </modules>
+  </component>
+</project>
